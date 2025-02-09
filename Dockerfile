@@ -7,7 +7,7 @@ EXPOSE 22 80 443 1180 11443
 RUN apk update \
     && apk add apache2-utils bash bind-tools bonding bridge busybox-extras curl \
     dnsmasq dropbear ethtool freeradius git ifupdown-ng iperf iperf3 iproute2 iputils \
-    jq lftp mtr mysql-client net-tools netcat-openbsd nginx nmap \
+    jq lftp mtr mysql-client nano net-tools netcat-openbsd nginx nmap \
     openntpd openssh-client openssl perl-net-telnet postgresql-client procps-ng \
     rsync socat sudo tcpdump tcptraceroute tshark wget \
     && mkdir /certs /docker \
